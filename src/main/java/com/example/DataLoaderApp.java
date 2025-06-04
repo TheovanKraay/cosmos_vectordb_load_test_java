@@ -16,7 +16,7 @@ public class DataLoaderApp {
 
     private static final String COSMOS_ENDPOINT = System.getenv("COSMOS_ENDPOINT");
     private static final String DATABASE_NAME = "books";
-    private static final String CONTAINER_NAME = "bookitems4";
+    private static final String CONTAINER_NAME = "bookitems";
     private static final String DATA_FILE = "staging_embeddings.jsonl";
     private static final ObjectMapper mapper = new ObjectMapper();
 

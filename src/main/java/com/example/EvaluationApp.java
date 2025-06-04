@@ -22,7 +22,7 @@ public class EvaluationApp {
 
     private static final String COSMOS_ENDPOINT = System.getenv("COSMOS_ENDPOINT");
     private static final String DATABASE_NAME = "books";
-    private static final String CONTAINER_NAME = "bookitems4";
+    private static final String CONTAINER_NAME = "bookitems";
     private static final String OPENAI_API_KEY = System.getenv("AZURE_OPENAI_API_KEY");
     private static final String OPENAI_EMBEDDING_MODEL = "text-embedding-ada-002";
     private static final String OPENAI_EMBEDDING_URL = System.getenv("OPENAI_ENDPOINT");
