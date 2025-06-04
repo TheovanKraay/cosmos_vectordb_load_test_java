@@ -1,0 +1,34 @@
+# Java build files
+/target/
+/out/
+
+# Maven
+/logs/
+*.log
+dependency-reduced-pom.xml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Environment variables or secrets
+.env
+*.env
+
+# Sensitive files
+staging_embeddings.jsonl
+books_processing/questions/
