@@ -28,7 +28,3 @@ Thumbs.db
 # Environment variables or secrets
 .env
 *.env
-
-# Sensitive files
-staging_embeddings.jsonl
-books_processing/questions/
